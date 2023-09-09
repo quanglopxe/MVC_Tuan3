@@ -17,5 +17,11 @@ namespace Bai1_B.Models
         public bool Check3 { get; set; }
         public string ChooseWorkTime { get; set; }
         public int SelectCourse { get; set; }
+        public Information():this("Duong Thuan Quang",123,"quanglopxe@gmail.com","","",true,true,false,)
+        { }
+        public Information(string FullName, string IdStudent, string Email, string FileImage, string Note, bool Check1, bool Check2, bool Check3, string ChooseWorkTime, int SelectCourse)
+        {
+
+        }
     }
 }
