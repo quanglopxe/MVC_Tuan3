@@ -1,0 +1,99 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    
+}
+<html>
+
+<body>
+    <h2>ENTER INFORMATION TO REGIST AN COURSE</h2></br>
+    <div style="background-color:gray">
+
+        <div class="container-fluid">
+            <form action="~home/index" method="get">
+                <p>Identificate Information</p>
+                <div class=" mb-3">
+                    <label for="FullName" class="form-label"><b>Full name</b></label>
+                    <input type="text" class="form-control" id="FullName" name="FullName" />
+                    <p>Nhập họ tên đầy đủ. Capital từng từ</p>
+                </div>
+                <div class="mb-3">
+                    <label for="IdStudent" class="form-label"><b>ID Student</b></label>
+                    <input type="number" class="form-control" id="IdStudent" name="IdStudent" />
+                </div>
+                <div class="mb-3">
+                    <label for="Email" class="form-label"><b>Email</b></label>
+                    <input type="email" class="form-control" id="Email" name="Email" />
+                </div>
+                <div class="mb-3">
+                    <label for="FileImage" class="form-label"><b>File Image Input</b></label>
+                    <input type="file" class="form-control" id="FileImage" name="FileImage" />
+                </div>
+                <div class="mb-3">
+                    <label for="Note" class="form-label"><b>Note</b></label>
+                    <textarea class="form-control" id="Note" name="Note" rows="3"></textarea>
+                </div>
+
+                <b>We are Known by</b><br /><br />
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="Check1" name="Check1" />
+                    <label for="Check1" class="form-label">Television</label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="Check2" name="Check2" />
+                    <label for="Check2" class="form-label">Website</label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="Check3" name="Check3" />
+                    <label for="Check3" class="form-label">NewsPaper</label>
+                </div>
+
+                <b>Choose Work Study</b><br /><br />
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" id="Check1" name="Check1" />
+                    <label for="Check1" class="form-label">Morning (2-4-6)</label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" id="Check1" name="Check1" />
+                    <label for="Check1" class="form-label">Afternoon (2-4-6)</label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" id="Check1" name="Check1" />
+                    <label for="Check1" class="form-label">Morning (3-5-7)</label>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="radio" id="Check1" name="Check1" />
+                    <label for="Check1" class="form-label">Afternoon (3-5-7)</label>
+                </div>
+
+
+
+                <div class="input-group">
+                    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </div><br /><br />
+                <div class="input-group">
+                    <button type="submit">Submit Button</button>
+                    <button type="reset">Reset Button</button>
+
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
